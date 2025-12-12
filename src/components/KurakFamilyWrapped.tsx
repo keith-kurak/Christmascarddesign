@@ -109,9 +109,9 @@ export function KurakFamilyWrapped() {
   };
 
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center p-8">
+    <div className="flex-1 bg-black flex items-center justify-center p-8">
       {/* Card Container - 8.5x11 ratio */}
-      <div className="relative w-full max-w-[8.5in] aspect-[8.5/11]">
+      <div className="flex flex-1">
         {/* Current Slide */}
         <div className={`absolute inset-0 bg-gradient-to-br ${slides[currentSlide].gradient} rounded-lg shadow-2xl overflow-hidden transition-all duration-500`}>
           {slides[currentSlide].content}
