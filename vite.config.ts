@@ -19,6 +19,7 @@
         'input-otp@1.4.2': 'input-otp',
         'figma:asset/ad891481326786f4317af481460924d890170104.png': path.resolve(__dirname, './src/assets/ad891481326786f4317af481460924d890170104.png'),
         'figma:asset/8b08cd4bacc5d7f20775d4aad37fa901f9659f21.png': path.resolve(__dirname, './src/assets/8b08cd4bacc5d7f20775d4aad37fa901f9659f21.png'),
+        'figma:asset/74174dd81c190c9a2bc962cd272fb190031975db.png': path.resolve(__dirname, './src/assets/74174dd81c190c9a2bc962cd272fb190031975db.png'),
         'figma:asset/2547c615a2c051150832706a616fff0e76110ea8.png': path.resolve(__dirname, './src/assets/2547c615a2c051150832706a616fff0e76110ea8.png'),
         'figma:asset/1f924943987b5f3b0dbff31590a14fa78a344fd5.png': path.resolve(__dirname, './src/assets/1f924943987b5f3b0dbff31590a14fa78a344fd5.png'),
         'embla-carousel-react@8.6.0': 'embla-carousel-react',
@@ -55,7 +56,7 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'dist',
+      outDir: 'build',
     },
     server: {
       port: 3000,
