@@ -3,6 +3,7 @@ import familyPhoto from "figma:asset/8b08cd4bacc5d7f20775d4aad37fa901f9659f21.pn
 import travelMap from "figma:asset/1f924943987b5f3b0dbff31590a14fa78a344fd5.png";
 import duckImage from "figma:asset/ad891481326786f4317af481460924d890170104.png";
 import artImage from "figma:asset/2547c615a2c051150832706a616fff0e76110ea8.png";
+import qrCode from "figma:asset/74174dd81c190c9a2bc962cd272fb190031975db.png";
 
 export function KurakFamilyPrint() {
   return (
@@ -14,10 +15,15 @@ export function KurakFamilyPrint() {
 
         <div className="relative bg-white h-full flex flex-col p-2">
           {/* QR Code - Top Right */}
-          <div className="absolute top-4 right-4 w-20 h-20 bg-gray-100 rounded-lg flex items-center justify-center z-10">
-            <p className="text-gray-400 text-xs text-center">
-              QR
-            </p>
+          <div className="absolute top-4 right-4 flex flex-col items-center z-10">
+            <div className="w-18 h-18 bg-gray-100 rounded-lg flex items-center justify-center mb-1">
+              <img
+                src={qrCode}
+                alt="QR Code"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="text-gray-600 text-xs">[MORE]</p>
           </div>
 
           {/* Header Section */}
@@ -186,7 +192,10 @@ export function KurakFamilyPrint() {
                   So, yeah, the kids played My Little Pony fan
                   tributes and Keith and Kiera went to not one,
                   but TWO concerts featuring artists who crossed
-                  over to a hit WB show from 20 years ago, where they played... artists who played the same songs they played in real life. Totally normal tastes in music!
+                  over to a hit WB show from 20 years ago, where
+                  they played... artists who played the same
+                  songs they played in real life. Totally normal
+                  tastes in music!
                 </p>
               </div>
             </div>
